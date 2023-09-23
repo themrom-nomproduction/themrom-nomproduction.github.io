@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		nav ul {list-style-type: none;
+	 		margin: 0;
+	 		padding: 0;
+	 		}
+	 			
+	 		nav a {
+	 			display: block;
+	 			text-decoration: none;
+	 			outline: none;
+	 			transition: .4s ease-in-out;
+	 		}
+	 		
+	 		.topmenu{; 
+	 			backface-visibility: hidden;
+	 			background: rgba(255,255,255,0.7)
+	 		}
+
+	 		.topmenu > li{
+	 			display: inline-block;
+	 			position: relative;
+
+	 		}
+
+	 		.topmenu > li > a {
+	 			font-family: 'Exo 2', sans-serif;
+	 			height: 70px;
+	 			line-height: 70px;
+	 			padding: 0 30px;
+	 			font-weight: bold;
+	 			color: #003559;
+	 			text-transform: uppercase;
+
+	 		}
+
+	 		.down:after{
+	 			
+	 			margin-left: 8 px;
+	 			font-family: FontAwesome;
+	 		}
+
+	 		.topmenu li a:hover {color: green;}
+	 		.submenu {
+	 			background: white;
+	 			border: 2px solid #003559;
+	 			position: absolute;
+	 			left: 0;
+	 			visibility: hidden;
+	 			opacity: 0;
+	 			z-index: 5;
+	 			width: 150 px;
+	 			transform: perspective(600px) rotateX(-90deg);
+	 			transform-origin: 0% 0%;
+	 			transition: .6s ease-in-out;
+	 		}
+
+	 		.topmenu > li:hover .submenu{
+	 			visibility: visible;
+	 			opacity: 1;
+	 			transform: perspective(600px) rotateX(0deg);
+	 		}
+
+	 		.submenu li a {
+	 			color: #7f7f7f;
+	 			font-size: 13px;
+	 			line-height: 36px;
+	 			padding: 0 25px;
+	 			font-family: 'Kurale', serif;
+	 		}
+
+	 		.navbar {text-align: center; position: fixed; top:0; width: 100vw}
+
+
+
+		.nyam{text-align: center;}
+		img {width: 400px; height: auto;
+		}
+		.pon {width: 200px; height: auto;
+			padding-top: 1vh; padding-bottom: 1vh}
+
+		.nyam h4 {margin-left: 20vw; margin-right: 20vw}
+
+		#zagl {padding-top: 5vh; margin-top: 8vh;}
+
+		.simval {width: 65px; height: auto; padding-top: 0vh; float: right; margin-right: 35vw}
+
+		#zgl {text-align: left; margin-right: 45vw; margin-left: 20vw; }
+		#sim {text-align: left; margin-right: 45vw; margin-left: 20vw}
+		.nah {font-size: 100px; text-align: center; margin-top: vh}
+		.tabl {padding-top: 20vh}
+
+		#n7a {margin-top: 6vh}
+		#abc {margin-top: 3vw}
+		#rvan {margin-bottom: 35vh}
+
+		@media (max-width: 767 px ){
+	 	body{
+	 		display: block;
+	 	}
+	 	#header, #main, #footer{
+	 		width: auto;
+	 	}
+	 
+
+
+
+	</style>
+<body bgcolor="A7DEA9">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Банк 7А the mr Om-Nom production</title>
+</head>
+
+	<nav class="navbar">
+	<ul class="topmenu">
+			<li><a  href="index.html">Галоўная</a></li>
+			<li><a  href="index.html#zagl">А кампанii</a></li>
+			<li><a  href="" class="down">Наша прадукцыя</a>
+		<ul class="submenu">
+		<li><a href="index.html#okompanii">Ам i Ням</a></li>
+		<li><a href="index.html#aminyam">Байкi 7A</a></li>
+		<li><a href="index.html#bayki7a">Залаты мозг Ам-Няма</a></li>
+		<li><a href="gazetaNA.html">газета "Навiнны Ам-Ням"</a></li>
+		<li><a href="index.html#gazeta">Нямтэла</a></li>
+		<li><a href="index.html#nyamtella">Ням`i карты</a></li>
+		<li><a href="index.html#cards">Прывiлей даумка</a></li>
+		<li><a href="index.html#orkup">The orange купюр</a></li>
+		</ul>
+	</li>
+	<li><a href="#rvan">разарваныя нямы. шо рабiць?</a></li>
+	</ul>
+</nav>
+
+<div>
+	<p class="nah" style="font-family:Comic Sans MS">Банк 7А</p>
+</div>
+
+
+
+	<div class="nyam">
+		
+		<img id="tabl"src="images\tabl.png">
+		
+
+		<h4 id="n7a" style="font-family: Trebuchet MS;">Ням(множны лiк - нямы) -  бонусы па бел. мове.
+										Першая купюра 100 нямаў была надрукавана 21 кастрычнiка 2022г. Тады яна была створана па 
+									    прыколу, як бутафорыя сапраўдных грошаў. Але, калi яе паказалi Вадзiму Михайлавiчу, ен прыдумаў 
+									выкарыстоўваць нямы, як бонусы. Увесь 6"А" прагаласаваў "За" гэту сiстэму. Затым быў  пробны перыад - 
+									былi ўведзены ў зварот чорна-белыя нямы. Гiсторыя не захавала дату, калi гэта было, але прыблiзна 
+									гэты перыад працягваўся 4-5 месяцаў. За гэты час яшчэ сiмвал для нямаў прыдумалi. Трэцяга мая былi надрукаваны
+									каляровыя нямы. The ў гэтым навучальным годзе ў зварот увайшли новыя купюры 500 нямаў. Дызайнерам ўсiх купюр з`яўляецца 
+									Дзякевiч Максiм </h4>
+		
+
+		<img src="images\nyams.jpg">
+
+		<h3 id="abc" style="font-family: Trebuchet MS;"></h3>
+
+		<img class="simval" src="images\simval.png">
+		<h4 id="zgl" style="font-family: Trebuchet MS;">The графiчны сiмвал няма:</h4>
+		<h4 id="sim" style="font-family: Trebuchet MS;">Лiтара Н - першая лiтара ў слове "ням", лiтара А - лiтара нашага класа. Сiмвал
+		расшыфроўваецца: Ням 7А</h4>
+
+		<h3 id="zagl" style="font-family: Trebuchet MS;">Разарваныя нямы. Шо рабiць?
+		</h3>
+		<img class="pon" src="images\porvan nyam.png">
+		<h4 style="font-family: Trebuchet MS;">
+			The правiла а падраных нямах:
+		</h4>
+		<h4 id="rvan" style="font-family: Trebuchet MS">Калi ў цябе выпадкова парвалася купюра, не трэба шукаць блiжэйшую лужу, каб утапiцца.
+		Ты яшчэ можаш абмяняць яе ў Вадзiма Мiхайлавiча "У банке" на адзнаку, або на цэлую купюру, але калi на ёй цэлая роспiсь Вадзiма Мiхайлавiча i
+	ў цябе ёсць усе кавалачкi ад парванай купюры, т.е. 100%. Калi ты -10iq недаумак и спецыяльна рвеш купюры, яны ў банк не прымаюцца. ЗА НАЎМЫСНАЕ ПАШКОДЖАННЕ КУПЮР
+	Ў БАНК ЯНЫ НЕ ПРЫМАЮЦЦА! </h4>
+	<h4 style="bottom: 0; text-align: right;">The mr Om-Nom production</h4>
+	</div>
+
+</body>
+</html>

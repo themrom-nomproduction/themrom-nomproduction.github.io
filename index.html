@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalabel=no">
+	<title> the mr Om-Nom production official</title>
+	<style type="text/css">*{box-sizing: border-box;}
+ body{
+	margin: 0;
+	background: radial-gradient(#BFD6E2 1px, rgba(255, 255, 255, 0) 2 px);
+	background-size: 10px 10px;
+}
+
+
+			nav ul {list-style-type: none;
+	 		margin: 0;
+	 		padding: 0;
+	 		
+
+	 		}
+	 			
+	 		nav a {
+	 			display: block;
+	 			text-decoration: none;
+	 			outline: none;
+	 			transition: .4s ease-in-out;
+	 		}
+	 		
+	 		.topmenu{
+	 			backface-visibility: hidden;
+	 			background: rgba(167, 228, 168, 0.8);
+	 			top: 0;
+	 			
+	 		}
+
+	 		.topmenu > li{
+	 			display: inline-block;
+	 			position: relative;
+
+	 		}
+
+	 		.topmenu > li > a {
+	 			font-family: 'Exo 2', sans-serif;
+	 			height: 70px;
+	 			line-height: 70px;
+	 			padding: 0 30px;
+	 			font-weight: bold;
+	 			color: #003559;
+	 			text-transform: uppercase;
+
+	 		}
+
+	 		.down:after{
+	 			
+	 			margin-left: 8 px;
+	 			font-family: FontAwesome;
+	 		}
+
+	 		.topmenu li a:hover {color: green;}
+	 		.submenu {
+	 			background: white;
+	 			border: 2px solid #003559;
+	 			position: absolute;
+
+	 			visibility: hidden;
+	 			opacity: 0;
+	 			z-index: 5;
+	 			width: 150 px;
+	 			transform: perspective(600px) rotateX(-90deg);
+	 			transform-origin: 0% 0%;
+	 			transition: .6s ease-in-out;
+	 		}
+
+	 		.topmenu > li:hover .submenu{
+	 			visibility: visible;
+	 			opacity: 1;
+	 			transform: perspective(600px) rotateX(0deg);
+	 		}
+
+	 		.submenu li a {
+	 			color: #7f7f7f;
+	 			font-size: 13px;
+	 			line-height: 36px;
+	 			padding: 0 25px;
+	 			font-family: 'Kurale', serif;
+	 		}
+
+	 		.navbar {text-align: center; position: fixed; top:0; width: 100%}
+
+
+
+
+.header{width: 500px;  margin:0 auto; text-align: center; margin-top: 15vh;  }
+#ab{width: 40px ; height: 44px }
+#ba{ height: inherit ; min-width:10vw ; vertical-align: middle; color: green;}
+#ab, #ba{display: inline-block;vertical-align: middle;}
+
+
+
+	
+
+#aminyam {background: rgba(223, 198, 143, 0.5);
+width: 500px; height: 96px; margin-left: auto; margin-right: auto;
+text-align: center;}
+#aminyam img {width: 95px; height: auto; float: right;}
+
+#bayki7a {background: rgba(153, 174, 234, 0.5);
+width: 500px; height: 210px; margin-left: auto; margin-right: auto;
+text-align: center;}
+#bayki7a img {width: 85px; height: auto; float: left;}
+	 	
+#zman {background: rgba(234, 168, 153, 0.5);
+width: 500px; height: 210px; margin-left: auto; margin-right: auto;
+text-align: center; margin-top: 2vh}
+#zman img {width: 130px; height: auto; float: right;}
+	 	
+	 	
+	 	
+#gazeta {background: rgba(158, 234, 153, 0.5);
+width: 500px; height: 110px; margin-left: auto; margin-right: auto;
+text-align: center; margin-top: 2vh}
+#gazeta img {width: 90px; height: auto; float: left; margin-left: 1vw; margin-top: 1vh}
+
+#nyamtella {background: rgba(179, 153,234, 0.5);
+width: 500px; height: 160px; margin-left: auto; margin-right: auto;
+text-align: center; margin-top: 2vh}
+#nyamtella img {width: 90px; height: auto; float: right; margin-left: 1vw; margin-top: 1vh}
+
+#cards {background: rgba(153, 234, 230, 0.5);
+width: 500px; height: 110px; margin-left: auto; margin-right: auto;
+text-align: center; margin-top: 2vh}
+#cards img {width: 100px; height: auto; float: left; margin-left: 1vw; margin-top: 1vh}
+
+#privileydoumka {background: rgba(254, 220,86, 0.5);
+width: 500px; height: 245px; margin-left: auto; margin-right: auto;
+text-align: center; margin-top: 2vh}
+#privileydoumka img {width: 90px; height: auto; float: right; margin-left: 1vw; margin-top: 1vh}
+
+
+#orkup {background: rgba(153, 234, 230, 0.5);
+width: 500px; height: 110px; margin-left: auto; margin-right: auto;
+text-align: center; margin-top: 2vh}
+#orkup img {width: 100px; height: auto; float: left; margin-left: 1vw; margin-top: 1vh}
+
+	
+
+
+
+	 @media (max-width: 767 px ){
+	 	body{
+	 		display: block;
+	 	}
+	 	#header, #main, #footer{
+	 		width: auto;
+	 	}
+	 }</style>
+
+</head>
+<body>
+
+<nav class="navbar">
+	<ul class="topmenu">
+			<li><a  href="index.html">Главная</a></li>
+			<li><a  href="#zagl">О компании</a></li>
+			<li><a  href="" class="down">Наша продукция</a>
+		<ul class="submenu">
+		<li><a href="#okompanii">Ам i Ням</a></li>
+		<li><a href="#aminyam">Байкi 7A</a></li>
+		<li><a href="#bayki7a">Залаты мозг Ам-Няма</a></li>
+		<li><a href="gazetaNA.html">газета "Новостной Ам-Ням"</a></li>
+		<li><a href="#gazeta">Нямтэла</a></li>
+		<li><a href="#nyamtella">Нямьи карты</a></li>
+		<li><a href="#cards">Привилей доумка</a></li>
+		<li><a href="#orkup">The orange купюр</a></li>
+		</ul>
+	</li>
+	<li><a href="bank.html">Банк 7А</a></li>
+	</ul>
+</nav>
+	
+
+
+<div class="header" id="zagl">
+	<img id="ab" src="images/logo.png">
+	<h2 id="ba" style="font-family: Arial;">The mr Om-Nom production</h2>
+
+</div>
+	
+
+
+
+<div>
+	<H2 style="font-family: Comic Sans MS ; text-align: center;">Наша продукция</H2>
+</div>
+	
+
+<div id="aminyam">
+	<img src="images\drage.png">
+	<p style="font-family: Trebuchet MS;">The драже "Ам i Ням". Выпускалось в двух вкусах: с орехом и с изюмом. Состав: Зелье Ам-Няма; арахис крутости с леса рук;
+	Нямий шоколад. Если съешь, станешь лютым доумком с 18327637846385372584256893746982 76538 iq и получишь 27805479678689671964875 level крутости </p>
+</div>
+ <div id="bayki7a">
+ 	<img src="images\bayki.png">
+ 	<p style="font-family: Trebuchet MS;">Байкi 6"А". Данный сборник шедевров мировой литературы был создан 23 марта 2023 года. В нём собраны басни таких великих писателей как А.С. Тарасевич, М.М. Декевич, П.И. Тарасенко, И.С. Рупека. На протяжении многих четвертей эти поэты писали басни на белорусском языке про жизнь 6"А" и про смешные случаи в классе. Благодаря басням появились такие крылатые фразы, как "Вярышкаў суд". После, басни вышли из популярности и остались далеко в батонном веку. Им на смену пришла <a href="#zman">газета "Новостной Ам-Ням"</a>, в которую пишут и продолжают свою карьеру баснописцы и не только
+ 	</p>
+
+ </div>
+
+	<div id="zman">
+		
+	<img src="images\zman.png">
+	<p style="font-family: Trebuchet MS;">Залаты мозг Ам-Няма. Данная iq-игра проводилась в 4-ой четверти. Чтобы победить, нужно правильно отвечать на вопросы по белорусскому языку и литературе. В игре участвовал весь класс. Победитель получал <a href="#cards">Привилей доумка</a>, сумму нямов, а также сертификат на проход в суперфинал игры - Рубиновый мозг Ам-Няма. В последней игре "Рубиновый мозг Ам-Няма" 24.03.2022 разыгрывалась 1000 нямов, медаль и огромная грамота размером 0.4х0.25 Лёхи. Победителем стала Муха Аня.                 *1Лёха=2 метра</p>
+
+	</div>
+
+
+	<div id="gazeta">
+		<img src="images\namn.jpg">
+		<p style="font-family: Trebuchet MS;">газета Новостной Ам-Ням. The газета 7"А" класса. Печатается с 02.05.2023 и по нынешнее время. Только здесь, на <a href="gazetaNa.html">оффицальном сайте</a> вы можете...<a href="gazetaNa.html">Читать дальше</a> </p>
+
+	</div>
+
+
+	<div id="nyamtella">
+	<img src="images\nyamtella.png">
+	<p style="font-family: Trebuchet MS;">Нямтелла. The шоколадная паста с орехом. Почти основное питание Вадима Михайловича. Есть два способа есть нямтеллу: простой - берешь батон, намазываешь нямтеллу и ешь; и национальный (по вадимически): берешь батон, откладываешь его в сторону и ешь нямтеллу ложками. Данный продукт содержит 114672528736298648 level iq, крутости, доброты в каждой ложке </p>	
+	</div>
+
+	<div id="cards">
+		<img src="images\cards.png">
+		<p style="font-family: Trebuchet MS;">Нямьи карты. Это карты, чтобы рубиться где-нибудь на перемене или на улице с друзьями в дурака или в другую карточную игру. Карты обладают эксклюзивным дизайном. В данных картах есть 4 масти: Ам-Ням; миньон; леденец; кубик.</p>
+	</div>
+
+	<div id="privileydoumka">
+		<img src="images\privileydoumka.png">
+		<p style="font-family: Trebuchet MS;">Привилей доумка. Первый Привилей на простом листке бумаги из тетрадки был написан настолько давно, что история не сохранила эту дату. Сейчас данная историческая ценность находится у Димы Юрьевича и выставлена на аукцион за 1000 нямов. После, Привилеи начали печатать и выдавать за победу в iq-игре <a href="#bayki7a">Золотой мозг Ам-Няма</a>, чтобы его получить, нужно быть истинным доумком - пройти 2 тура игры и занять 1 место в финале. Данный привилей подтверждает, что ты доумок, а также даёт дополнительные привилегии: дышать на 1000,8 кг воздуха больше; кидать бумажный самолётик на 2,5 см дальше; входить в состав Веришкового Суда; чилить на 5,8 минут дольше чем все и т.д.</p>
+	</div>
+
+	<div id="orkup">
+		<img src="images\orcup.jpg">
+		<p style="font-family: Trebuchet MS;">The orange купюр. Данная сувенирная купюра 10000000000000000000000,5 (10 секстилионов целых, 5 десятых) orange-dollarov печаталась в ограниченом тираже - 12 штук на Вселенную. Она является очень почётной и редкой и даёт +50 к крутости и +10000000000000000000000,5 к капиталу</p>
+	</div>
+
+</body>
+</html>
